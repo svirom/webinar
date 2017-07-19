@@ -1,0 +1,27 @@
+/*
+Fonts, using in website:
+font-family: 'Raleway', sans-serif;
+font-family: 'Lato', sans-serif;
+*/
+
+/*-----------------CSS reset-------------------*/
+* { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+body { margin: 0; border: 0; padding: 0; outline: 0; vertical-align: baseline; background: transparent; font: normal 400 16px/24px 'Lato', sans-serif; color: #4F5362;-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+input, button, textarea, select { -webkit-appearance: none; outline: none;}
+h1, h2, h3, h4, h5, h6 { font-weight:normal;}
+ol, ul, li { list-style: none; margin: 0; padding: 0;}
+img { max-width: 100%; height: auto; border: none; outline: none;}
+a, a:link, a:visited { color: #0264a9; font-weight: normal; text-decoration: none; outline: none;}
+/*----------------- End CSS reset-------------------*/
+
+h1 { font-family: 'Raleway', sans-serif; font-size: 49px; font-weight: 300; color: #FFFFFF; line-height: 1.0; margin: 24px 0 12px;}
+h2 { font-family: 'Raleway', sans-serif; font-size: 40px; font-weight: 700; color: #222328; }
+h4 { font-family: 'Raleway', sans-serif; font-size: 14px; font-weight: 700; color: #222328; }
+
+.container { width: 100%; max-width: 1170px; margin: 0 auto; }
+/*.personal_image img { border-radius:30%; }*/
+.header_section {  }
+.header_section p { margin: 0 25% 0 0; font-family: 'Raleway', sans-serif; font-size: 26px; font-weight: 300; font-style: italic; color: #FFFFFF; }
+@media (max-width: 1199px) {
+	.header_section p { margin-right: 0; text-align: left!important; }
+}
