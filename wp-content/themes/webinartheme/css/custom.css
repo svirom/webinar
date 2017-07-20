@@ -17,6 +17,12 @@ a, a:link, a:visited { color: #0264a9; font-weight: normal; text-decoration: non
 h1 { font-family: 'Raleway', sans-serif; font-size: 49px; font-weight: 300; color: #FFFFFF; line-height: 1.0; margin: 24px 0 12px;}
 h2 { font-family: 'Raleway', sans-serif; font-size: 40px; font-weight: 700; color: #222328; line-height: 48px;}
 h4 { font-family: 'Raleway', sans-serif; font-size: 14px; font-weight: 700; color: #222328; }
+@media (max-width: 991px) {
+	h1 { margin-top: 6px; }
+}
+@media (max-width: 767px) {
+	h1 { margin-top: 0; }
+}
 
 .container { width: 100%; max-width: 1170px; margin: 0 auto; }
 /*.personal_image img { border-radius:30%; }*/
@@ -26,24 +32,72 @@ h4 { font-family: 'Raleway', sans-serif; font-size: 14px; font-weight: 700; colo
 	.header_section p { margin-right: 0; text-align: left!important; }
 }
 
-.sign_up_button button.vc_btn3.vc_btn3-size-lg { padding: 16px 120px; font-family: 'Raleway', sans-serif; font-size: 18px; font-weight: 700; letter-spacing: 2px;}
+.sign_up_button .vc_btn3.vc_btn3-size-lg { margin-bottom: 20px; padding: 16px 120px; font-family: 'Raleway', sans-serif; font-size: 18px; font-weight: 700; letter-spacing: 2px;}
+
 .features_section .wpb_single_image.wpb_content_element { margin-bottom: 0px; }
 .features_section h2 { margin-bottom: 74px; }
+
+/*.signup_section .wpb_content_element.for_only { margin-bottom: 0px; }
+.signup_section .wpb_content_element.payment { margin-bottom: 0px; }
+.signup_section .for_only p { margin: 32px 0 0 -86px; font-family: 'Raleway', sans-serif; font-size: 29px; font-weight: 700; color: #ffffff;}
+.signup_section .payment p { margin: 0 0 0 36px; font-family: 'Lato', sans-serif; font-size: 95px; font-weight: 900; color: #ffffff; line-height: 1;}
+.signup_section .after_payment p { margin: 0 0 0 126px; font-family: 'Raleway', sans-serif; font-size: 31px; font-weight: 700; color: #ffffff;}
+.signup_section .contact_form form { margin-top: 58px; }
+.signup_section .contact_form form input { width: 380px; max-width: 100%; margin-bottom: 26px; padding: 12px 22px; border: 1px solid #CFCFCF; border-radius: 7px; font: 16px/20px 'Lato', sans-serif; font-weight: 400; background: #FFFFFF;}
+.signup_section .contact_form form input[type="submit"] { width: auto; padding: 14px 68px; border: 1px solid #EC008C; color: #FFFFFF; font: 20px/24px 'Raleway', sans-serif; font-weight: 700; letter-spacing: 2px; background: #EC008C; -webkit-transition: background 0.3s ease; -moz-transition: background 0.3s ease; -o-transition: background 0.3s ease; transition: background 0.3s ease;}
+.signup_section .contact_form form input[type="submit"]:hover, 
+.signup_section .contact_form form input[type="submit"]:active { background: #EC175B; -webkit-transition: background 0.3s ease; -moz-transition: background 0.3s ease; -o-transition: background 0.3s ease; transition: background 0.3s ease;}
+.signup_section .contact_form form input::-webkit-input-placeholder { color: #4F5362; opacity: 0.9; -webkit-transition: opacity 0.3s ease; transition: opacity 0.3s ease;}
+.signup_section .contact_form form input::-moz-placeholder { color: #4F5362; opacity: 0.9; -moz-transition: opacity 0.3s ease; transition: opacity 0.3s ease;}
+.signup_section .contact_form form input:-moz-placeholder { color: #4F5362; opacity: 0.9; -moz-transition: opacity 0.3s ease; transition: opacity 0.3s ease;}
+.signup_section .contact_form form input:-ms-input-placeholder { color: #4F5362; opacity: 0.9; -ms-transition: opacity 0.3s ease; transition: opacity 0.3s ease;}
+.signup_section .contact_form form input:focus::-webkit-input-placeholder { opacity: 0; -webkit-transition: opacity 0.3s ease; transition: opacity 0.3s ease;}
+.signup_section .contact_form form input:focus::-moz-placeholder { opacity: 0; -moz-transition: opacity 0.3s ease; transition: opacity 0.3s ease;}
+.signup_section .contact_form form input:focus:-moz-placeholder { opacity: 0; -moz-transition: opacity 0.3s ease; transition: opacity 0.3s ease;}
+.signup_section .contact_form form input:focus:-ms-input-placeholder { opacity: 0; -ms-transition: opacity 0.3s ease; transition: opacity 0.3s ease;}
+*/
 .signup_section .wpb_content_element.for_only { margin-bottom: 0px; }
 .signup_section .wpb_content_element.payment { margin-bottom: 0px; }
-.signup_section .for_only p { margin: 32px 242px 0 0; font-family: 'Raleway', sans-serif; font-size: 29px; font-weight: 700; color: #ffffff;}
-.signup_section .payment p { margin: 0 36px 0 0; font-family: 'Lato', sans-serif; font-size: 95px; font-weight: 900; color: #ffffff; line-height: 1;}
-.signup_section .after_payment p { margin: 0 42px 0 0; font-family: 'Raleway', sans-serif; font-size: 31px; font-weight: 700; color: #ffffff;}
+.signup_section .for_only p { margin: 32px 0 0 -86px; font-family: 'Raleway', sans-serif; font-size: 29px; font-weight: 700; color: #ffffff;}
+.signup_section .payment p { margin: 0 0 0 36px; font-family: 'Lato', sans-serif; font-size: 95px; font-weight: 900; color: #ffffff; line-height: 1;}
+.signup_section .after_payment p { margin: 0 0 0 126px; font-family: 'Raleway', sans-serif; font-size: 31px; font-weight: 700; color: #ffffff;}
+.signup_section .contact_form #gform_1 { margin: 28px 0 48px; }
+.signup_section .contact_form #gform_1 input { width: 380px; max-width: 100%; margin-bottom: 0px; padding: 12px 22px; border: 1px solid #CFCFCF; border-radius: 7px; font: 16px/20px 'Lato', sans-serif; font-weight: 400; background: #FFFFFF;}
+.signup_section .contact_form #gform_1 input[type="submit"] { width: auto; padding: 14px 68px; border: 1px solid #EC008C; color: #FFFFFF; font: 20px/24px 'Raleway', sans-serif; font-weight: 700; letter-spacing: 2px; background: #EC008C; -webkit-transition: background 0.3s ease; -moz-transition: background 0.3s ease; -o-transition: background 0.3s ease; transition: background 0.3s ease;}
+.signup_section .contact_form #gform_1 input[type="submit"]:hover, 
+.signup_section .contact_form #gform_1 input[type="submit"]:active { background: #EC175B; -webkit-transition: background 0.3s ease; -moz-transition: background 0.3s ease; -o-transition: background 0.3s ease; transition: background 0.3s ease;}
+.signup_section .contact_form #gform_1 input::-webkit-input-placeholder { color: #4F5362; opacity: 0.9; -webkit-transition: opacity 0.3s ease; transition: opacity 0.3s ease;}
+.signup_section .contact_form #gform_1 input::-moz-placeholder { color: #4F5362; opacity: 0.9; -moz-transition: opacity 0.3s ease; transition: opacity 0.3s ease;}
+.signup_section .contact_form #gform_1 input:-moz-placeholder { color: #4F5362; opacity: 0.9; -moz-transition: opacity 0.3s ease; transition: opacity 0.3s ease;}
+.signup_section .contact_form #gform_1 input:-ms-input-placeholder { color: #4F5362; opacity: 0.9; -ms-transition: opacity 0.3s ease; transition: opacity 0.3s ease;}
+.signup_section .contact_form #gform_1 input:focus::-webkit-input-placeholder { opacity: 0; -webkit-transition: opacity 0.3s ease; transition: opacity 0.3s ease;}
+.signup_section .contact_form #gform_1 input:focus::-moz-placeholder { opacity: 0; -moz-transition: opacity 0.3s ease; transition: opacity 0.3s ease;}
+.signup_section .contact_form #gform_1 input:focus:-moz-placeholder { opacity: 0; -moz-transition: opacity 0.3s ease; transition: opacity 0.3s ease;}
+.signup_section .contact_form #gform_1 input:focus:-ms-input-placeholder { opacity: 0; -ms-transition: opacity 0.3s ease; transition: opacity 0.3s ease;}
 
-.testimonials_section .slick-prev { left: -40px; } 
-.testimonials_section .slick-next { right: -40px; }
+.signup_section .contact_form #gform_1 .gfield_error { background-color: transparent; border-top: 0; border-bottom: 0; padding-bottom: 0; padding-top: 0;}
+.signup_section .contact_form #gform_1 .validation_error { display: none;  /*position: absolute;*/}
+.signup_section .contact_form #gform_1 .gfield_description { position: absolute; padding-top: 0; }
+
 @media (max-width: 1199px) {
-	.testimonials_section .slick-prev { left: -25px; } 
-	.testimonials_section .slick-next { right: -25px; }
+	.signup_section .for_only p { margin: 32px 0 0 -86px;  font-size: 26px; }
+	.signup_section .payment p { margin: 0 0 0 36px;  font-size: 76px; }
+	.signup_section .after_payment p {margin: 0 0 0 86px;  font-size: 28px;}
+	.signup_section .contact_form #gform_1 { margin-top: 20px; }
 }
-@media (max-width: 800px) {
-	.testimonials_section .slick-prev { left: -30px; } 
-	.testimonials_section .slick-next { right: -30px; }
+@media (max-width: 991px) {
+	.signup_section .for_only p { margin: 32px 0 0 -86px;  font-size: 22px; }
+	.signup_section .payment p { margin: 0 0 0 36px;  font-size: 56px; }
+	.signup_section .wpb_content_element.after_payment p {margin: 0 0 0 36px;  font-size: 24px;}
+	.signup_section .contact_form #gform_1 { margin-top: -20px; }
+}
+@media (max-width: 767px) {
+	.signup_section .for_only p { margin: 0 0 0 -86px;  font-size: 22px; }
+	.signup_section .payment p { margin: 0;  font-size: 56px; }
+	.signup_section .after_payment p {margin: 0;  font-size: 24px;}
+	.signup_section .after_payment { margin-bottom: 0; }
+	.signup_section .contact_form #gform_1 { margin-top: 12px; }
+	.signup_section .contact_form #gform_1 input { display: block; margin: 0 auto 6px; }
 }
 
 .countdown_section .wpb_content_element { margin-bottom: 10px; }
@@ -61,4 +115,15 @@ h4 { font-family: 'Raleway', sans-serif; font-size: 14px; font-weight: 700; colo
 @media (max-width: 767px) {
 	.ult_countdown-section .ult_time-mid:before { top: 10px; right: 0px; width: 6px; height: 6px;}
 	.ult_countdown-section .ult_time-mid:after { top: 22px; right: 0px; width: 6px; height: 6px;}
+}
+
+.testimonials_section .slick-prev { left: -40px; } 
+.testimonials_section .slick-next { right: -40px; }
+@media (max-width: 1199px) {
+	.testimonials_section .slick-prev { left: -25px; } 
+	.testimonials_section .slick-next { right: -25px; }
+}
+@media (max-width: 800px) {
+	.testimonials_section .slick-prev { left: -30px; } 
+	.testimonials_section .slick-next { right: -30px; }
 }
