@@ -56,14 +56,14 @@ h4 { font-family: 'Raleway', sans-serif; font-size: 14px; font-weight: 700; colo
 .signup_section .contact_form form input:focus:-moz-placeholder { opacity: 0; -moz-transition: opacity 0.3s ease; transition: opacity 0.3s ease;}
 .signup_section .contact_form form input:focus:-ms-input-placeholder { opacity: 0; -ms-transition: opacity 0.3s ease; transition: opacity 0.3s ease;}
 */
-.signup_section .wpb_content_element.for_only { margin-bottom: 0px; }
+.signup_section .wpb_content_element.for_only { margin-top: 56px; margin-bottom: 0px; }
 .signup_section .wpb_content_element.payment { margin-bottom: 0px; }
 .signup_section .for_only p { margin: 32px 0 0 -86px; font-family: 'Raleway', sans-serif; font-size: 29px; font-weight: 700; color: #ffffff;}
 .signup_section .payment p { margin: 0 0 0 36px; font-family: 'Lato', sans-serif; font-size: 95px; font-weight: 900; color: #ffffff; line-height: 1;}
 .signup_section .after_payment p { margin: 0 0 0 126px; font-family: 'Raleway', sans-serif; font-size: 31px; font-weight: 700; color: #ffffff;}
 .signup_section .contact_form #gform_1 { margin: 28px 0 48px; }
 .signup_section .contact_form #gform_1 input { width: 380px; max-width: 100%; margin-bottom: 0px; padding: 12px 22px; border: 1px solid #CFCFCF; border-radius: 7px; font: 16px/20px 'Lato', sans-serif; font-weight: 400; background: #FFFFFF;}
-.signup_section .contact_form #gform_1 input[type="submit"] { width: auto; padding: 14px 68px; border: 1px solid #EC008C; color: #FFFFFF; font: 20px/24px 'Raleway', sans-serif; font-weight: 700; letter-spacing: 2px; background: #EC008C; -webkit-transition: background 0.3s ease; -moz-transition: background 0.3s ease; -o-transition: background 0.3s ease; transition: background 0.3s ease;}
+.signup_section .contact_form #gform_1 input[type="submit"] { /*width: auto;*/ padding: 14px 0px; border: 1px solid #EC008C; color: #FFFFFF; font: 20px/24px 'Raleway', sans-serif; font-weight: 700; letter-spacing: 2px; background: #EC008C; -webkit-transition: background 0.3s ease; -moz-transition: background 0.3s ease; -o-transition: background 0.3s ease; transition: background 0.3s ease;}
 .signup_section .contact_form #gform_1 input[type="submit"]:hover, 
 .signup_section .contact_form #gform_1 input[type="submit"]:active { background: #EC175B; -webkit-transition: background 0.3s ease; -moz-transition: background 0.3s ease; -o-transition: background 0.3s ease; transition: background 0.3s ease;}
 .signup_section .contact_form #gform_1 input::-webkit-input-placeholder { color: #4F5362; opacity: 0.9; -webkit-transition: opacity 0.3s ease; transition: opacity 0.3s ease;}
