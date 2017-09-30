@@ -29,11 +29,56 @@ h4 { font-family: 'Raleway', sans-serif; font-size: 14px; font-weight: 700; colo
 .sign_up_button button.vc_btn3.vc_btn3-size-lg { padding: 16px 120px; font-family: 'Raleway', sans-serif; font-size: 18px; font-weight: 700; letter-spacing: 2px;}
 .features_section .wpb_single_image.wpb_content_element { margin-bottom: 0px; }
 .features_section h2 { margin-bottom: 74px; }
-.signup_section .wpb_content_element.for_only { margin-bottom: 0px; }
+
+.signup_section .wpb_content_element.for_only { margin-top: 56px; margin-bottom: 0px; }
 .signup_section .wpb_content_element.payment { margin-bottom: 0px; }
-.signup_section .for_only p { margin: 32px 242px 0 0; font-family: 'Raleway', sans-serif; font-size: 29px; font-weight: 700; color: #ffffff;}
-.signup_section .payment p { margin: 0 36px 0 0; font-family: 'Lato', sans-serif; font-size: 95px; font-weight: 900; color: #ffffff; line-height: 1;}
-.signup_section .after_payment p { margin: 0 42px 0 0; font-family: 'Raleway', sans-serif; font-size: 31px; font-weight: 700; color: #ffffff;}
+.signup_section .for_only p { margin: 32px 0 0 -86px; font-family: 'Raleway', sans-serif; font-size: 29px; font-weight: 700; color: #ffffff;}
+.signup_section .payment p { margin: 0 0 0 36px; font-family: 'Lato', sans-serif; font-size: 95px; font-weight: 900; color: #ffffff; line-height: 1;}
+.signup_section .after_payment p { margin: 0 0 0 126px; font-family: 'Raleway', sans-serif; font-size: 31px; font-weight: 700; color: #ffffff;}
+.signup_section .contact_form { padding: 48px 0; }
+.signup_section .contact_form form { margin: 28px 0 48px; }
+.signup_section .contact_form form p { position: relative; margin-bottom: 36px; }
+.signup_section .contact_form form p:last-of-type { margin-bottom: 10px; }
+.signup_section .contact_form form input { width: 380px; max-width: 100%; margin-bottom: 0px; padding: 12px 22px; border: 1px solid #CFCFCF; border-radius: 7px; font: 16px/20px 'Lato', sans-serif; font-weight: 400; background: #FFFFFF;}
+.signup_section .contact_form form input[type="submit"] { width: auto; padding: 14px 68px; border: 1px solid #EC008C; color: #FFFFFF; font: 20px/24px 'Raleway', sans-serif; font-weight: 700; letter-spacing: 2px; background: #EC008C; -webkit-transition: background 0.3s ease; -moz-transition: background 0.3s ease; -o-transition: background 0.3s ease; transition: background 0.3s ease;}
+.signup_section .contact_form form input[type="submit"]:hover, 
+.signup_section .contact_form form input[type="submit"]:active { background: #EC175B; -webkit-transition: background 0.3s ease; -moz-transition: background 0.3s ease; -o-transition: background 0.3s ease; transition: background 0.3s ease;}
+.signup_section .contact_form form input::-webkit-input-placeholder { color: #4F5362; opacity: 0.9; -webkit-transition: opacity 0.3s ease; transition: opacity 0.3s ease;}
+.signup_section .contact_form form input::-moz-placeholder { color: #4F5362; opacity: 0.9; -moz-transition: opacity 0.3s ease; transition: opacity 0.3s ease;}
+.signup_section .contact_form form input:-moz-placeholder { color: #4F5362; opacity: 0.9; -moz-transition: opacity 0.3s ease; transition: opacity 0.3s ease;}
+.signup_section .contact_form form input:-ms-input-placeholder { color: #4F5362; opacity: 0.9; -ms-transition: opacity 0.3s ease; transition: opacity 0.3s ease;}
+.signup_section .contact_form form input:focus::-webkit-input-placeholder { opacity: 0; -webkit-transition: opacity 0.3s ease; transition: opacity 0.3s ease;}
+.signup_section .contact_form form input:focus::-moz-placeholder { opacity: 0; -moz-transition: opacity 0.3s ease; transition: opacity 0.3s ease;}
+.signup_section .contact_form form input:focus:-moz-placeholder { opacity: 0; -moz-transition: opacity 0.3s ease; transition: opacity 0.3s ease;}
+.signup_section .contact_form form input:focus:-ms-input-placeholder { opacity: 0; -ms-transition: opacity 0.3s ease; transition: opacity 0.3s ease;}
+
+div.wpcf7 .ajax-loader { margin-left: -34px!important; margin-top: -4px!important; }
+.signup_section .contact_form form span.wpcf7-not-valid-tip { position: absolute; padding-top: 0;  }
+div.wpcf7-validation-errors { display: none!important;  }
+div.wpcf7-response-output { position: absolute; margin: 0!important; }
+
+@media (max-width: 1199px) {
+	.signup_section .for_only p { margin: 32px 0 0 -86px;  font-size: 26px; }
+	.signup_section .payment p { margin: 0 0 0 36px;  font-size: 76px; }
+	.signup_section .after_payment p {margin: 0 0 0 86px;  font-size: 28px;}
+	.signup_section .contact_form form { margin-top: 20px; }
+}
+@media (max-width: 991px) {
+	.signup_section .for_only p { margin: 32px 0 0 -86px;  font-size: 22px; }
+	.signup_section .payment p { margin: 0 0 0 36px;  font-size: 56px; }
+	.signup_section .wpb_content_element.after_payment p {margin: 0 0 0 36px;  font-size: 24px;}
+	.signup_section .contact_form form { margin-top: -20px; }
+}
+@media (max-width: 767px) {
+	.signup_section .for_only p { margin: 0 0 0 -86px;  font-size: 22px; }
+	.signup_section .payment p { margin: 0;  font-size: 56px; }
+	.signup_section .after_payment p {margin: 0;  font-size: 24px;}
+	.signup_section .after_payment { margin-bottom: 0; }
+	.signup_section .contact_form form { margin-top: 12px; }
+	.signup_section .contact_form form input { /*display: block;*/ margin: 0 auto 6px; }
+	.signup_section .contact_form form p { text-align: center;}
+	div.wpcf7 .ajax-loader { position: absolute; top: 0; right: 0; margin-left: -34px!important; margin-top: 0px!important; }
+}
 
 .testimonials_section .slick-prev { left: -40px; } 
 .testimonials_section .slick-next { right: -40px; }
